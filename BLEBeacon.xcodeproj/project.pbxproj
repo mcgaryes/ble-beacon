@@ -62,7 +62,6 @@
 		AA3319D5180EF61C00C265D3 = {
 			isa = PBXGroup;
 			children = (
-				AA331A16180EF6EC00C265D3 /* Libraries */,
 				AA3319E7180EF61C00C265D3 /* BLEBeacon */,
 				AA3319E0180EF61C00C265D3 /* Frameworks */,
 				AA3319DF180EF61C00C265D3 /* Products */,
@@ -115,13 +114,6 @@
 				AA3319EF180EF61C00C265D3 /* BLEBeacon-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		AA331A16180EF6EC00C265D3 /* Libraries */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,8 +302,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BLEBeacon/BLEBeacon-Prefix.pch";
 				INFOPLIST_FILE = "BLEBeacon/BLEBeacon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -326,8 +320,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BLEBeacon/BLEBeacon-Prefix.pch";
 				INFOPLIST_FILE = "BLEBeacon/BLEBeacon-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
